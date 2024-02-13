@@ -24,7 +24,7 @@ async function sendMailController(email, otp, organization, subject) {
                       <head>
                           <meta charset="UTF-8">
                           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                          <title>${organization} One-Time Password (OTP)</title>
+                          <title>One-Time Password (OTP)</title>
                           <style>
                               body {
                                   font-family: Arial, sans-serif;
