@@ -14,7 +14,7 @@
     ],
     "crons": [
         {
-            "path": "/api/cron?secret=654f0ab14r219b958bkaih96",
+            "path": "/api/cron?secret=654f0ab14r219b958bkaid87",
             "schedule": "0 3 * * *"
         }
     ]
