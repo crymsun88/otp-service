@@ -7,7 +7,7 @@ const router = express.Router();
 
 router.post('/otp/generate', async (req, res) => {
   try {
-    const { email, type = 'numeric', organization = 'Saurav Hathi', subject = 'One-Time Password (OTP)' } = req.body;
+    const { email, type = 'numeric', organization = 'Crymsun', subject = 'One-Time Password (OTP)' } = req.body;
 
     const otp = await otpController.generateOtp(email, type);
 
