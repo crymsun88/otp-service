@@ -2,7 +2,7 @@ const { isValidEmail } = require("../utils/validator");
 const logger = require("../utils/logger");
 const Blocklist = require("../models/blockListModel");
 
-const spma_words = process.env.BLOCK_KEYWORDS_RULES.split(',') || [];
+const spma_words = process.env?.BLOCK_KEYWORDS_RULES.split(',') || [];
 
 const getIp = async (req) => {
     try {
